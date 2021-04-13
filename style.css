@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  width: 100%;
+  background-color: #fcfcfc;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: BoldE;
+  src: url(Eastman-Grotesque-Bold-trial.otf);
+}
+
+@font-face {
+  font-family: RegularE;
+  src: url(Eastman-Grotesque-Regular-trial.otf);
+}
+
+@font-face {
+  font-family: LightE;
+  src: url(Eastman-Grotesque-Extralight-trial.otf);
+}
+
+#header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 4em 0em 3em 3em;
+  background-color: #fcfcfc;
+  box-shadow: 0px 0px 15px #242424;
+}
+
+h1 {
+  font-family: BoldE;
+  font-weight: 900;
+  font-size: 2em;
+  color: #242424;
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+}
+
+.characterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+
+img {
+  width: 20vw;
+  height: 30vw;
+  object-fit: contain;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: RegularE;
+  font-size: 1.3em;
+  padding-top: .5em;
+}
+
+ul {
+  padding-top: 1em;
+}
+
+li {
+  font-family: RegularE;
+  line-height: 1em;
+}
